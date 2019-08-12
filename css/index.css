@@ -95,9 +95,11 @@ p {
 }
 
 .btn-gs {
-	border: 1px solid black;
+    border: 1.5px solid grey;
+    border-radius: 3%;
 	font-size: 15px;
-	margin: 0 150px;
+    margin: 0 150px;
+    padding: 1.5%;
 }
 
 footer {
@@ -208,15 +210,62 @@ ul {
         margin: -10% 25%;
     }
 
-    nav {
-        display: flex;
-        font-size: 18px;
+    .btn-gs {
+        margin-bottom: 15%;
+        margin-left: 45%;
+    }
+
+    #heading {
+        margin-left: 25%;
     }
 
 @media screen and (max-width: 500px) {
-    
-}
+    nav {
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        align-items: center;
+    }
 
+    nav a {
+        border: solid 1.5px lightgrey;
+        border-top: none;
+        padding: 5px;
+        width: 800px;
+    }
+
+    .logo {
+        position: absolute;
+        margin: -10% 2%;
+    }
+
+    .top-content {
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0;
+    }
+
+    .bottom-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .middle-img {
+        margin: 5% 0;
+    }
+
+    .btn-gs {
+        margin: 10% 40%;
+    }
+
+    .contact {
+        margin: 5% 0;
+    }
+
+    #heading {
+        margin-left: 25%;
+    }
+  }
 }
 
 
